@@ -1,59 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Rain on Sunday - Book Cover</title>
-  <style>
-    body, html {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      font-family: 'Georgia', serif;
-    }
-
-    .cover {
-      background-image: url("https://images.unsplash.com/photo-1503435824048-a799a3a84bf7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFpbnxlbnwwfHwwfHx8MA%3D%3D"); /* replace with actual book cover filename */
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      position: relative;
-      color: white;
-      text-align: center;
-    }
-
-    .title {
-      position: absolute;
-      top: 20%;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 3em;
-      line-height: 1.2em;
-      white-space: pre-line;
-    }
-
-    .author {
-      position: absolute;
-      bottom: 10%;
-      left: 50%;
-      transform: translateX(-50%);
-      font-size: 1.5em;
-    }
-
-    .passport-photo {
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
-      width: 80px;
-      height: 100px;
-      border: 2px solid white;
-    }
-  </style>
-</head>
-<body>
-  <div class="cover">
-    <div class="title">RAIN<br>ON SUNDAY</div>
-    <div class="author">ABISHA LINU</div>
-    <img src="linu.jpg" alt="Passport Photo" class="passport-photo">
-  </div>
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compataible"content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet"href="style.css">
+        <title>book cover</title>
+    </head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        .image-container {
+          position: relative;
+          text-align: center;
+          background-size: cover;
+        }
+        .image-container img {
+          width: 40%;
+          height: 10%;
+        }
+        .centered-text {
+          position: absolute;
+          top:10%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color:darkgreen;
+          font-size: 24px;
+          font-weight: bold;
+        }
+        .centered-text2{
+            position: absolute;
+            top:75%;
+            left:35%;
+            transform:translate(-50,-50) ;
+            color:beige;
+            font-size: 24px ;
+            font-weight: bold;
+        }
+        .centered-text3{
+            position: absolute;
+            TOP:40%;
+            left:33%;
+            transform:translate(-50,-50) ;
+            color:rgb(11, 8, 17);
+            font: size 24px; 
+            font-weight: bold;
+        }
+        .centered-text4{
+          position: absolute;
+          top:75%;
+          left:60%;
+          width: 100px;
+          height:100px;
+          
+        }
+      </style>
+    </head>
+    <body bgcolor="grey">
+      <div class="image-container">
+        <img src="image.png" alt="Image" height="400" width="50px">
+        <div class="centered-text"><h2><br><br><br>SUNDAY RAIN<HR><H3>The Joy of Friendship</H3></h2></div>
+      </div> <BR><br><br><br>
+        <div class="centered-text2"><h3>Arthur La Bern</h3><HR><H4>CREATED BY ABISHA LINU L</H4></div>
+        <div class="centered-text4"><img src="WhatsApp Image 2025-05-14 at 10.35.22_6311dde4.jpg" width="150px" height="200px"></div>
+    </body>
+    </html>
+    
 </html>
